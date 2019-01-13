@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from IPython.display import display
 
 def plot_values(V):
 	# reshape value function
@@ -13,4 +14,4 @@ def plot_values(V):
 	    ax.text(i, j, np.round(label, 5), ha='center', va='center', fontsize=14)
 	plt.tick_params(bottom=False, left=False, labelbottom=False, labelleft=False)
 	plt.title('State-Value Function')
-	plt.show()
+	display(plt.show())
