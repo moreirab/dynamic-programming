@@ -9,9 +9,9 @@ In this section, I create an instance of the FrozenLake environment.
 
 In this section, I wrote my own implementation of iterative policy evaluation.
 
-### Part 2: Obtain $q_\pi$ from $v_\pi$
+### Part 2: Obtain q_\pi from v_\pi
 
-In this section, I worte a function that takes the state-value function estimate as input, along with some state $s\in\mathcal{S}$.  It returns the **row in the action-value function** corresponding to the input state $s\in\mathcal{S}$.  That is, my function accepts as input both $v_\pi$ and $s$, and return $q_\pi(s,a)$ for all $a\in\mathcal{A}(s)$.
+In this section, I worte a function that takes the state-value function estimate as input, along with some state s\in\mathcal{S}.  It returns the **row in the action-value function** corresponding to the input state s\in\mathcal{S}.  That is, my function accepts as input both v_\pi and s, and return q_\pi(s,a) for all a\in\mathcal{A}(s).
 
 ### Part 3: Policy Improvement
 
